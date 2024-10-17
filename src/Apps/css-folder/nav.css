@@ -1,0 +1,29 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    width: 100%;  
+    margin-top: 20px; 
+}
+.navigation img{
+    display: block;
+    
+}
+.logo{
+    width: 50px;
+    display: block;
+}
+.logo-section{
+    flex: 40%;
+    display: flex;
+    flex-direction: row;
+}
+.nav-content{
+    flex: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+.nav-content li{
+    list-style: none;
+}
