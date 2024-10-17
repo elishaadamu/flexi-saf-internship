@@ -2,6 +2,7 @@
 import React from 'react';
 import Content from "./components/content"
 import NavigationSection from './components/navigation';
+import Usehook from './components/useHook';
 import "./App.css"
 
 
@@ -24,6 +25,9 @@ return (
           number="234"
           country="Nigeria"
         />
+        <div className='useHook'>
+        <Usehook/>
+        </div>
       </div>
   )
 }

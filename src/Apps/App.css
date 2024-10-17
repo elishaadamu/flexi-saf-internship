@@ -2,9 +2,6 @@ body{
   border: 0;
   box-sizing: border-box;
   background-color: aliceblue;
-}
-
-.content{
   display: grid;
   place-content: center;
   height: 100vh;
